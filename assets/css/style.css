@@ -1,0 +1,445 @@
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden !important;;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden !important;
+    transition: all 1s ease-in-out
+}
+
+img {
+    overflow-x: hidden !important;
+    display: block !important; /* Menghilangkan ruang ekstra di bawah gambar */
+}
+
+body{
+    background: rgb(125,84,139) !important;
+    background: linear-gradient(100deg, rgba(125,84,139,1) 0%, rgba(87,52,64,1) 100%) !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
+    color: var(--text-color-welcome) !important;
+    padding: 0 !important;
+
+    /*** - Variable Declaration - ***/
+    --text-color-welcome: white;
+    --text-color-welcome-dark: white;
+    --bg-color-welcome: #015958;
+    --bg-color-default-white: white;
+    --bg-color-default-dark: black;
+
+    --text-color-nav-2: white;
+    --text-color-nav-b-2: white;
+    --text-color-nav-grey-2:#AAA;
+    --bg-color-nav-2: var(--gray-5);
+    --bg-color-nav-2-hover: var(--gray-6);
+
+    --welcome-page-height: 100%;
+    --tentang1-page-height: ;
+
+    --nav-a-hover: #b6b6e6;
+    margin: 0;
+    --padding-left: 23vmin !important;
+}
+
+header{
+    background: rgb(125,84,139) !important;
+    background: linear-gradient(0deg, rgba(125,84,139,1) 0%, rgba(87,52,64,1) 100%) !important;
+}
+
+.welcome-page {
+    padding: 20vmin 5vmin 0 5vmin;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome-page h1 {
+    font-size: 8vmin !important;
+    font-weight: 700;
+    margin: 0 0 1vmin;
+}
+
+.auto-img {
+    width: 50vmin;
+}
+
+.start-80 {
+    left: 75%;
+}
+
+.start-20 {
+    left: -7%;
+}
+
+.top-10{
+    top: 10% !important;
+}
+
+.top-20{
+    transform: translateY(-60%);
+}
+
+.tentang-mpk{
+    padding: 20vmin 15vmin !important;
+}
+
+.bg{
+    transform: translate(-7%, -10%);
+    width: 100%;
+}
+
+.start-min{
+    left: -25%;
+}
+
+.top-30{
+    transform: translateY(-65%);
+}
+.top-40{
+    transform: translateY(-83%);
+}
+
+.px-c{
+    padding:  0 10vmin 0 10vmin;
+
+}
+
+.content-mpk-overlay{
+    border: 0.3vmin solid rgba(128, 127, 129, 0.5);
+    border-radius: 4vmin; 
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    padding: 3.5vmin;
+}
+
+.content-mpk-overlay p{
+    font-size: 4vmin;
+    font-weight: 400;
+    letter-spacing:0.1vmin;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 5vmin;
+    color: var(--text-color-welcome) !important;
+    margin: 0;
+}
+
+.content-mpk-overlay span{
+    font-size: 16vmin;
+    font-weight: 300;
+    letter-spacing:0.2vmin;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 5vmin;
+    color: var(--text-color-welcome) !important;
+    margin-block: 7.5vmin;
+    margin-left: 3vmin;
+    margin-right: 3vmin;
+
+}
+
+.content-mpk-overlay a{
+    font-size: 2.5vmin;
+    font-weight: 300;
+    letter-spacing:0.4vmin;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 5vmin;
+    color: var(--text-color-welcome) !important;
+}
+
+.left-content p{
+    font-weight: 600;
+    font-size: 3vmin;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    transition: all 0.5s ease-in-out !important;
+    cursor: pointer;
+
+}
+
+.left-content p:hover{
+    padding-left: 4vmin !important;
+}
+
+.proker-mpk{
+    color: white;
+    overflow: hidden;
+    padding-top: 15vmin;
+    height: 10%;
+}
+
+.proker-page{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly !important;
+    flex-direction: row;
+}
+
+.left-proker{
+    display: flex;
+    align-items: start;
+    color: white;
+    font-size: 4vmin;
+    flex-direction: column;
+    width: 45%;
+    padding-top: 5vmin;
+}
+
+.left-proker a{
+    font-size: vmin;
+    font-weight: 550;
+    letter-spacing:0.2vmin;
+    text-align:start;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 10vmin;
+    color: var(--text-color-welcome) !important;
+    margin-bottom: 1vmin;
+}
+
+.left-proker span{
+    font-size: 4vmin;
+    font-weight: 300;
+    letter-spacing:0.2vmin;
+    text-align:start;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 5vmin;
+    color: var(--text-color-welcome) !important;
+    margin-bottom: 1vmin;
+}
+
+.left-proker p{
+    font-weight: 600;
+    text-align: start;
+    font-size: 3vmin;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: all 0.5s ease-in-out !important;
+    cursor: pointer;
+}
+
+.left-proker p:hover {
+    padding-left: 5vmin !important;
+}
+
+
+.right-proker{
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    width: 30%;
+}
+
+.right-proker img{
+    width: 45vmin;
+}
+
+
+.hargur img{
+    width: 40vmin;
+    transform: translate(30vmin,-5vmin);
+}
+
+.pemilos{
+    width: 35vmin;
+    position: relative;
+    transform: translate(-7vmin,-10vmin);
+    top: -11vmin;
+    left: -10vmin;
+}
+
+.baksos img{
+    width: 50vmin !important;
+}
+
+.tugas {
+    padding: 13vmin;
+}
+
+.sosial{
+    padding: 13vmin;
+
+}
+
+.card{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.tentang{
+    padding: 25vmin 20vmin 15vmin !important;
+
+}
+
+.periode{
+    padding: 25vmin 20vmin 25vmin !important;
+
+}
+
+.sm-line{
+    border: 0.3vmin solid rgba(255, 255, 255, 1);
+    margin-block: 5vmin;
+    width: 20%;
+}
+
+.tentang .row{
+    align-items: center;
+}
+
+.page-1{
+    padding: 15vmin 20vmin 15vmin !important;
+
+}
+
+@media(max-width:1025px){
+    .auto-img {
+        width: 40vmin;
+    }
+
+    .proker-page{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-proker{
+        width: 80%;
+        padding-bottom: 10vmin
+    }
+
+    .right-proker{
+        width: 50%;
+        align-items: center;
+        margin-right: 20%;
+    }
+
+}
+
+.tentang-mpk{
+    padding: 20vmin 20vmin !important;
+    max-width: 100% !important;
+}
+
+
+@media(max-width: 992px) {
+    .welcome-page {
+        padding-top: 30vmin;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 5vmin;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tentang-mpk{
+        padding: 20vmin 10vmin !important;
+        max-width: 100% !important;
+    }
+    
+    .auto-img {
+        width: 85%;
+    }
+
+    .top-10{
+        top: 3% !important;
+        width: 100% !important;
+    }
+
+    .start-20 {
+        left: -15%;
+    }
+
+    .top-20{
+        transform: translateY(-60%);
+    }
+
+    .start-80 {
+        left: 70%;
+    }
+
+    .right-page{
+        display: flex;
+        justify-content: center; /* Menengahkan secara horizontal */
+        align-items: center;
+    }
+
+    .bg{
+        transform: translate(-20%, 8%);
+        width: 250%;
+    }
+
+    .px-c{
+        padding:  0 ;
+    }
+
+    .start-min{
+        left: -25%;
+    }
+    
+    .top-30{
+        transform: translateY(-70%);
+    }
+    .top-40{
+        transform: translateY(-170%);
+    }
+
+    .counter .row .col{
+        padding-block: 10vmin 10vmin;
+    }
+}
+
+
+.scroll-pc{
+    width: 20%;
+}
+
+.up-icon{
+    padding-bottom: 2vmin;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2vmin;
+    color:rgb(255, 255, 255);
+}
+
+.icon-scroll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom:3vmin;
+    align-items: center;
+}
+
+.mousey {
+    width: 0.5vmin;
+    padding: 1vmin 2vmin;
+    height: 4.1vmin;
+    border: 0.5vmin solid #ffffff;
+    border-radius: 18vmin;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+
+.scroller {
+    width: 0.5vmin;
+    height: 1vmin;
+    border-radius: 50%;
+    background-color: #ffffff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+    margin-right: 0vmin;
+}
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(3vmin); opacity: 0;}
+}

@@ -1,0 +1,145 @@
+body{
+    max-width: 100%;
+
+    /*** - Variable Declaration - ***/
+    --text-color-welcome: white;
+    --text-color-welcome-dark: white;
+    --bg-color-welcome: #015958;
+    --bg-color-default-white: white;
+    --bg-color-default-dark: black;
+
+    --text-color-nav-2: white;
+    --text-color-nav-b-2: white;
+    --text-color-nav-grey-2:#AAA;
+    --bg-color-nav-2: var(--gray-5);
+    --bg-color-nav-2-hover: var(--gray-6);
+
+    --welcome-page-height: 100%;
+    --tentang1-page-height: ;
+
+    --nav-a-hover: #b6b6e6;
+    margin: 0;
+    --padding-left: 23vmin !important;
+}
+
+footer{
+    background: rgb(125,84,139);
+    background: linear-gradient(90deg, rgba(125,84,139,1) 0%, rgba(87,52,64,1) 100%);
+    display: flex;
+    flex-direction: column;
+    padding-block: 2vmin;
+    padding-top: 4vmin;
+    height: 100%;
+    position: relative;
+    z-index: 20;
+}
+
+.information{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: context-menu;
+    font-size: 2.7vmin;
+    height: 100%;
+}
+
+.logo-footer{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2vmin;
+}
+.logo-footer img{
+    width: 10vmin;
+    padding-right: 2vmin;
+}
+
+.logo-footer p{
+    font-weight: 600;
+    margin-block: auto;
+}
+
+.lokasi-mpk p{
+    font-weight: 600;
+}
+
+.lokasi-mpk{
+    width: calc(90% / 3);
+}
+
+.hub-mpk{
+    width: calc(90% / 3);
+}
+
+.hub-mpk p{
+    font-weight: 600;
+}
+
+.hub-line{
+    display: flex;
+    flex-direction: row;
+    padding-block: 0.8vmin;
+    justify-content: start;
+}
+
+.logo-hub{
+    font-size: 4vmin;
+    width: 7vmin;
+}
+
+.web-mpk{
+    width: calc(90% / 3);
+}
+
+.line{
+    border: 0.3vmin solid rgba(255, 255, 255, 1);
+    margin-bottom: 3vmin;
+    width: 100%;
+}
+
+.hak-cipta{
+    display: flex;
+    padding-top: 5vmin;
+    width: 93%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 2.5vmin;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: context-menu;
+}
+
+@media(max-width: 1000px) {
+    .information{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo-footer{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .web-mpk{
+        width: calc(90% / 1);
+        padding-block: 3vmin;
+    }
+
+    .lokasi-mpk{
+        width: calc(90% / 1);
+        padding-block: 3vmin;
+
+    }
+    
+    .hub-mpk{
+        width: calc(90% / 1);
+        padding-block: 3vmin;
+
+    }
+
+}

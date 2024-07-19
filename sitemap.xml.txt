@@ -1,0 +1,11 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://kesiswaan.sman16-sby.sch.id/mpk</loc>
+</url>
+<url>
+<loc>https://kesiswaan.sman16-sby.sch.id/mpk/tentang</loc>
+</url>
+<url>
+<loc>https://kesiswaan.sman16-sby.sch.id/mpk/struktur</loc>
+</url>
+</urlset>
